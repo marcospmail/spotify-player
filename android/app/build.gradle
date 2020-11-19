@@ -129,13 +129,13 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.sevenappstest"
+        applicationId "com.player"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
         manifestPlaceholders = [
-            appAuthRedirectScheme: "com.sevenappstest"
+            appAuthRedirectScheme: "com.player"
         ]
     }
     splits {
